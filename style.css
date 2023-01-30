@@ -129,6 +129,12 @@ a:hover{
     color: white;
 }
 
+.Home .layout{
+    display: flex;
+    max-width: 100%;
+    background-color:aquamarine; 
+}
+
 @media only screen and (min-width: 360px) and (max-width: 430px){
     header{
         height: 80px;
@@ -171,4 +177,28 @@ a:hover{
         color: chartreuse;
     }
 
+}
+@media screen and (max-width: 780px){
+    .navlinks{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+.topbar .dog a{
+    display: block;
+    float: none;
+    text-align: center;
+}
+.dog{
+    float: none;
 }
